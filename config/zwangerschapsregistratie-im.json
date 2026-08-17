@@ -1,0 +1,18 @@
+[
+  {
+    "name": "zwangerschapsregistratie",
+    "type": "impl",
+    "eap": "OSLO-zwangerschapsregistratie-IM.eap",
+    "diagram": "zwangerschapsregistratie",
+    "template": "zwangerschapsregistratie-im.j2",
+    "title": "Implementatiemodel zwangerschapsregistratie",
+    "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
+    "publication-date": "2026-08-04",
+    "license": "https://data.vlaanderen.be/id/licentie/modellicentie-gratis-hergebruik/v1.0",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Rol",
+    "site": "site-skeleton/zwangerschapsregistratie-im",
+    "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-zwangerschapsregistratie/issues",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/implementatiemodel-zwangerschapsregistratie"
+  }
+]
