@@ -3,7 +3,7 @@
     "name": "zwangerschapsregistratie",
     "type": "impl",
     "eap": "OSLO-zwangerschapsregistratie-IM.eap",
-    "diagram": "zwangerschapsregistratie",
+    "diagram": "Zwangerschapsregistratie",
     "template": "zwangerschapsregistratie-im.j2",
     "title": "Implementatiemodel zwangerschapsregistratie",
     "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/ZonderStatus",
