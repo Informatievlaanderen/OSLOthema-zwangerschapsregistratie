@@ -1,10 +1,8 @@
-# TITEL VAN TRAJECT
-
-<!--TODO: pas de titel aan van de README naar de naam van het traject zoals bijvoorbeeld 'Energiehuis'-->
+# Zwangerschapsregistratie
 
 ## Inleiding
 
-<!--TODO: inleidende beschrijving van het traject-->
+Het traject Zwangerschapsregistratie streeft naar het ontsluiten van data gerelateerd aan de registratie van zwangerschappen.
 
 ## Verslagen en presentaties
 

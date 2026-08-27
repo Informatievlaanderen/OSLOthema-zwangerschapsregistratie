@@ -1,9 +1,16 @@
 {% extends "impl.j2" %}
 
 {% block summary %}
-<p>Vul hier een samenvatting van mijn implementatiemodel in.</p>
-{% endblock %}
+<p>
+    Zwangerschapsregistraties geven aan dat er een medische observatie heeft plaatsgevonden die een zwangerschap
+    heeft vastgesteld die bijgevolg kan worden geregistreerd. Het implementatiemodel Vitalink-Zwangerschapsregistratie koppelt de 
+    zwangere persoon aan een zwangerschap, die op haar beurt gekoppeld is via een zwangerschapstoestand aan deze medische observatie. 
+    Aan de zwangerschap zijn één of meerdere foetussen gekoppeld waaruit het aantal verwachte kinderen kan worden afgeleid. 
+    De verwachte bevallingsdatum zit vervat in de duur van de zwangerschapstoestand.
 
-{% block status %}
-<p>(Verwijder dit blok om een geautomatiseerde standaardparagraaf te laten verschijnen.)</p>
+    De medische observatie heeft een effectief tijdstip waarop deze werd uitgevoerd. Tevens heeft zij een uitvoerder, aanzien als een 
+    Agent die kan optreden als een Persoon, Zorgverlener (subklasse van een Persoon) of een Organisatie. Een persoon kan lid zijn
+    van een overkoepelende organisatie.
+    
+    Het implementatiemodel is volledig gebaseerd op en compatibel met het <a href="https://data.vlaanderen.be/doc/applicatieprofiel/overlijdensaangifte/" target="_blank">Applicatieprofiel Overlijdensaangifte</a>.
 {% endblock %}
