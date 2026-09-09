@@ -11,9 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Toevoeging MedischVerslag met relaties steltOp/opgesteldDoor met Agent en documenteert/gedocumenteerdDoor met Medische Observatie.
+- Toevoeging attribuut volledigeNaam aan Persoon.
 
 ### Fixed
 - Toevoeging uri aan de 'documenteert'-eigenschap.
 
 ### Changed
-- Verwijderen relatie 'uitvoerder' tussen MedischeObservatie en Agent
+- Verwijderen relatie 'uitvoerder' tussen MedischeObservatie en Agent.
