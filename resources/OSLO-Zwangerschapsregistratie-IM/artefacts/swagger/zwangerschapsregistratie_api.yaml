@@ -550,6 +550,7 @@ components:
           description: De collectie van de uitgewisselde data en zijn metadata elementen. Lijst van Zwangerschap items.
           items:
             $ref: '#/components/schemas/Zwangerschap'
+          minItems: 1
         volgende:
           $ref: '#/components/schemas/Link'
         warning:
