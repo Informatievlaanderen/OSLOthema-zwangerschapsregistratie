@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Nieuwe OpenAPI specificatie (YAML) met handmatige aanpassingen voor MAGDA.
 - Aanpassingen meerdere kardinaliteiten.
+- Toevoeging URIs voor Envelop, Problemdetail, Uitzondering & Annotatie
 
 ### [0.1.6] - 2026-09-15
 
