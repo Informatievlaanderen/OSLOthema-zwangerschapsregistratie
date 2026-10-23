@@ -11,7 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Attribuut PregnancyListEnvelope.ontvangstReferte (String [0..1]), URI https://data.vlaanderen.be/ns/vitalink/zwangerschapsregistratie#ontvangstReferte. Hiermee bevestigt de afnemer de ontvangst van de vorige batch.
-- Nieuwe OpenAPI-specificatie zwangerschapsstatussen.yaml (OpenAPI 3.1): gegenereerd door de toolchain, met handmatig toegevoegde paths en tags.
+- Nieuwe OpenAPI-specificatie zwangerschapsstatussen_api.yaml (OpenAPI 3.1): gegenereerd door de toolchain, met handmatig toegevoegde paths en tags.
 
 ### Changed
 - Zwangerschappen worden opgehaald in batches (batchSize, ontvangstReferte) in plaats van met een filter op het effectief tijdstip (effectiefTijdstipVan, effectiefTijdstipTot) en offset/limit-paginering.
